@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Insert_page"
+    android:background="@drawable/image1"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="399dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="656dp"
+        android:text="MEDICINE DETAILS"
+        android:textAlignment="center"
+        android:textColor="#0A9600"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="539dp"
+        android:text="Medicine Name:"
+        android:textColor="#0071D4"
+        android:textSize="34sp" />
+
+    <EditText
+
+        android:id="@+id/medicine_name"
+        android:layout_width="333dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="475dp"
+        android:hint="Medicine"
+        android:inputType="textAutoCorrect" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="311dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="398dp"
+        android:inputType="date"
+        android:text="Date:"
+        android:textColor="#0071D4"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="318dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="338dp"
+        android:hint="dd/mm/yyyy"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="190dp"
+        android:text="Time of day:"
+        android:textColor="#0071D4"
+        android:textSize="34sp" />
+
+    <Spinner
+        android:id="@+id/time"
+        android:layout_width="354dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="130dp"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/insert_btn"
+        android:layout_width="160dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="45dp"
+        android:text="Insert"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="309dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="270dp"
+        android:text="Expiry Date:"
+        android:textColor="#0071D4"
+        android:textSize="34sp"/>
+
+    <EditText
+        android:id="@+id/expiry_date"
+        android:layout_width="307dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="237dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="dd/mm/yyyy"/>
+
+</RelativeLayout>
